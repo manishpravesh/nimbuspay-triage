@@ -1,0 +1,25 @@
+{
+  "train_rows": 1445,
+  "cleaned_rows": 1375,
+  "log_rows": 270,
+  "counts": {
+    "unchanged": 1175,
+    "fix": 175,
+    "legacy_prio": 70,
+    "drop_garbage": 10,
+    "rebuilt_json": 25,
+    "drop_duplicate": 60
+  },
+  "field_fixes": {
+    "priority": 130,
+    "txn_date": 30,
+    "rebuilt_json": 25,
+    "txn_id": 20,
+    "amount_paise": 25
+  },
+  "dev_rule_exact": {
+    "hit": 200,
+    "n": 200
+  },
+  "raw_trainable_rows": 1410
+}
